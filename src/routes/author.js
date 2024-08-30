@@ -3,6 +3,6 @@ const AuthorController = require('../controller/AuthorController');
 const route = express.Router();
 
 route
-    .post('/api/author', AuthorController.create)
+    .post('/', AuthorController.create)
 
 module.exports = route;
